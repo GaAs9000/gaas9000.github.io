@@ -30,8 +30,8 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'jiashen3@illinois.edu'
+  - icon: envelope
+    url: 'mailto:jiashen3@illinois.edu'
     label: E-mail Me
   - icon: brands/instagram
     url: https://www.instagram.com/jasonrrr9009/
