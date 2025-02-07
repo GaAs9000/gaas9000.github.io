@@ -1204,3 +1204,5 @@ Let's apply this method to option **(D) $x \mapsto T(x) = (x^2 + 5)/6$ for inter
 *   **压缩距离:** 使区间内任意两点间的距离按小于 1 的比例缩小。
 
 **为了解答这个问题，你需要对每个选项的函数，验证其在区间 [1, 2] 上是否同时满足这两个条件。 只有两个条件都满足的函数，才能被视为区间 [1, 2] 上的压缩映射。**
+
+## Did you find this page helpful? Consider sharing it 🙌
