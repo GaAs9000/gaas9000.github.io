@@ -11,9 +11,9 @@ tags:
 
 
 
-# First Order ODE 
+## First Order ODE 
 
-## Approach
+### Approach
 
 To solve $y' = a(t)y + b(t)$ :
 
@@ -27,7 +27,7 @@ To solve $y' = a(t)y + b(t)$ :
 
 5. **General Solution:** The general solution is $y(t) = c \cdot e^{A(t)} + y_p(t)$, where $c$ is an arbitrary constant.
 
-## Sample
+### Sample
 
 **1** For the solution $y(t)$ of the IVP $y' = (y/t) - 1$, $y(1) = \ln 2$, the value $y(2)$ is equal to:
 
@@ -53,9 +53,9 @@ To solve $y' = a(t)y + b(t)$ :
 - [ ] 17/2
 - [x] 19/2
 
-# Separatble ODEs
+## Separatble ODEs
 
-## Approach
+### Approach
 
 Given a separable ODE of the form:  $\frac{dy}{dt} = f(t)g(y)$
 
@@ -80,7 +80,7 @@ Given a separable ODE of the form:  $\frac{dy}{dt} = f(t)g(y)$
 7. **Evaluate $y(t_1)$:**
 Substitute $t = t_1$ into the explicit solution $y = h(t, C)$ (or implicit solution and solve for $y$) to find $y(t_1)$.
 
-## Sample
+### Sample
 
 1. **For the solution** $y(t)$ **of the IVP** $y' = y\ln t$, $y(1) = 1$ **the value** $y(e)$ **is equal to**
 
@@ -122,9 +122,9 @@ Substitute $t = t_1$ into the explicit solution $y = h(t, C)$ (or implicit solut
     - [ ] $[\frac{3}{2}, 2]$
     - [ ] $[2, \infty)$
 
-# Exact Differential Equations and Integrating Factors
+## Exact Differential Equations and Integrating Factors
 
-## Approach
+### Approach
 
 **Goal:** Find integrating factor $\mu$ for ODE $M dx + N dy = 0$
 
@@ -144,7 +144,7 @@ Substitute $t = t_1$ into the explicit solution $y = h(t, C)$ (or implicit solut
 *   After finding the correct case and $g(s)$, calculate $\mu(s)$ by solving the $\mu'(s) = \pm g(s)\mu(s)$ relationship which leads to  $\mu(s) = e^{\pm \int g(s) ds}$.
 *   Multiply the original ODE by $\mu$ to make it exact.
 
-## Sample
+### Sample
 
 1.  **The ODE** $(y^2 + y) dx - x dy$ **has the integrating factor**
 
@@ -178,9 +178,9 @@ Substitute $t = t_1$ into the explicit solution $y = h(t, C)$ (or implicit solut
     - [ ] $x^2$
     - [x] $y^2$
 
-# Radius of Convergence
+## Radius of Convergence
 
-## Approach
+### Approach
 
 To find the radius of convergence $R$ of a power series $\sum_{n=0}^{\infty} c_n z^n$:
 
@@ -212,7 +212,7 @@ To find the radius of convergence $R$ of a power series $\sum_{n=0}^{\infty} c_n
     - $R = \infty$, if $L = 0$
     - $R = 0$, if $L = \infty$
 
-## Sample
+### Sample
 
 1. The power series $z + \frac{1}{2}z^2 + \frac{1}{4}z^4 + \frac{1}{8}z^8 + \frac{1}{16}z^{16} + \dots$ has radius of convergence
 
@@ -238,9 +238,9 @@ To find the radius of convergence $R$ of a power series $\sum_{n=0}^{\infty} c_n
     - [ ] 2
     - [ ] $\infty$
 
-# Picard-Iteration
+## Picard-Iteration
 
-## Approach
+### Approach
 
 **Problem-Solving Approach for Picard-Lindelöf Iterates**
 
@@ -281,7 +281,7 @@ $\phi_{k+1}(t) = y_0 + \int_{0}^{t} f(s, \phi_k(s)) \, ds, \quad k = 0, 1, 2, \d
 5. **Match:** Compare $\phi_2(t)$ to options.
 
 **Important Note:** The integral is always evaluated from $0$ to $t$, and in each step you're substituting the *previous* iterate into the function $f$. You are iteratively refining an approximation to the solution of the IVP.
-## Sample
+### Sample
 
 1. The sequence $\phi_0, \phi_1, \phi_2, \dots$ of Picard-Lindelöf iterates for the IVP $y' = y+t$, $y(0) = -1$ has $\phi_2(t)$ equal to
 
@@ -307,9 +307,9 @@ $\phi_{k+1}(t) = y_0 + \int_{0}^{t} f(s, \phi_k(s)) \, ds, \quad k = 0, 1, 2, \d
     - [ ] $2t + 4t^2$
     - [ ] $1 + 4t + 4t^2$
 
-# Matrix Norms
+## Matrix Norms
 
-## Approach
+### Approach
 
 
 For a matrix $A$, the norm of $A$ can be defined in different ways. Two common matrix norms are the Operator Norm ($||A||$) and the Frobenius Norm ($||A||_F$).
@@ -350,7 +350,7 @@ For a matrix $A$, the norm of $A$ can be defined in different ways. Two common m
 
    $ = \sqrt{ \frac{1}{2} + 1 } = \sqrt{ \frac{3}{2} } = \frac{\sqrt{6}}{2} \approx 1.225 $
 
-## Sample
+### Sample
 
 1. The matrix norm of $\begin{pmatrix} 2 & -3 \\ 3 & 2 \end{pmatrix}$ (subordinate to the Euclidean length on $\mathbb{R}^2$) is contained in the interval
 
@@ -376,7 +376,7 @@ For a matrix $A$, the norm of $A$ can be defined in different ways. Two common m
     - [ ] 2
     - [x] $1+\sqrt{2}$
 
-# Phase Line
+## Phase Line
 
 ### **1. Basic Concepts**
 - **Autonomous Equation**: A differential equation \( y' = f(y) \) that depends only on the variable \( y \) and does not explicitly contain the independent variable \( t \).
@@ -446,22 +446,22 @@ In each interval, choose any point \( y_0 \) and substitute it into \( f(y) \) t
 4. **Solution Trend**: Initial value \( y = 0 \) is in \( (-1, 1) \), \( y' < 0 \), solution is decreasing and trends towards \( y = -1 \).
    **Limit**: \(\boxed{-1}\)
 
-# Second Order ODE (homogenous and inhomogenous)
+## Second Order ODE (homogenous and inhomogenous)
 
 **$ay'' + by' + cy = r(x)$**
 
 where $a$, $b$, $c$ are constants, and $r(x)$ is a function of $x$.
 
-## Homogenous Second Order ODEs:  $ay'' + by' + cy = 0$
+### Homogenous Second Order ODEs:  $ay'' + by' + cy = 0$
 
 1. **Write down the Characteristic Equation:  $ar^2 + br + c = 0$**
 
-1. **Solve the Characteristic Equation:**
+2. **Solve the Characteristic Equation:**
 
    • Find the roots $\alpha_1, \alpha_2$ of this quadratic equation using the formula:
      $\alpha_{1,2} = \dfrac{-r_1 \pm \sqrt{r_1^2 - 4r_0}}{2}$
 
-2. **Check Root Type:**
+3. **Check Root Type:**
 
    A. **Distinct Roots** ($\alpha_1 \neq \alpha_2$, when $r_1^2 \neq 4r_0$)
       1. **Real Distinct Roots**
@@ -475,11 +475,11 @@ where $a$, $b$, $c$ are constants, and $r(x)$ is a function of $x$.
 
 **Note:** In all cases, $C_1$ and $C_2$ are arbitrary constants determined by initial conditions.
 
-## Inhomogeneous Second Order ODEs:  $ay'' + by' + cy = r(x)$
+### Inhomogeneous Second Order ODEs:  $ay'' + by' + cy = r(x)$
 
 This section details the "Method of Undetermined Coefficients" (待定系数法) to find a particular solution $y_p(x)$ for the inhomogeneous equation.
 
-### 1. Choosing the Form of $y_p(x)$ - Based on r(x)
+#### 1. Choosing the Form of $y_p(x)$ - Based on r(x)
 
 The choice of the form of the particular solution $y_p(x)$ depends on the form of the function $r(x)$. Use the following table as a guide:
 
@@ -494,7 +494,7 @@ The choice of the form of the particular solution $y_p(x)$ depends on the form o
 
 where $k, γ, n, ω, α$ are known constants, and $C, K_i, M$ are undetermined coefficients that need to be determined by substituting $y_p(x)$ into the ODE.
 
-### 2. Rules for Determining $y_p(x)$
+#### 2. Rules for Determining $y_p(x)$
 
 *   **Basic Rule :**
     If $r(x)$ consists of terms listed in the table above, then choose $y_p(x)$ to have the corresponding form from the "Choice for $y_p(x)$" column and solve for the undetermined coefficients.
@@ -532,7 +532,7 @@ $\Rightarrow B = -8 \Rightarrow y_p(x) = -8xe^{-x}$
 
 ---
 补充点稀奇古怪的知识
-### 零化算子法（Method of Annihilators）
+#### 零化算子法（Method of Annihilators）
 
 **核心思想**：通过构造一个能“零化”非齐次项的微分算子，将原非齐次方程转化为高阶齐次方程，从而确定特解的形式。
 
@@ -554,13 +554,13 @@ $\Rightarrow B = -8 \Rightarrow y_p(x) = -8xe^{-x}$
    将 $y^*$ 代入原方程  $y'' - 3y' + 2y = 2xe^x$，  通过比较系数解出  $A = -2,\quad B = -1$，  
    最终特解为：$y^* = -2x^2e^x - xe^x$.
 
-### 微分算子法(used in final exam)
-###### 算了写final里面了
+#### 微分算子法(used in final exam)
+ 算了写final里面了
 ---
 
-# Euler Equation
+## Euler Equation
 
-## Approach
+### Approach
 
 **Equation Form:**  $ax^2y'' + bxy' + cy = 0$
 
@@ -591,7 +591,7 @@ $\Rightarrow B = -8 \Rightarrow y_p(x) = -8xe^{-x}$
 
 5. **Apply Initial Conditions (if given):** Use initial conditions to determine the constants $A$ and $B$ in the general solution.
 
-## Sample
+### Sample
 
 **1**. For the solution $y: (0, \infty) \to \mathbb{R}$ of the IVP  $t^2 y'' - t y' + y = 1, y(1) = y'(1) = 0$  the value $y(e)$ is equal to
 
@@ -609,9 +609,9 @@ $\Rightarrow B = -8 \Rightarrow y_p(x) = -8xe^{-x}$
 - [ ] $\frac{19}{8}$
 - [x] $\frac{19}{24}$
 
-# How to expand $e^{At}$
+## How to expand $e^{At}$
 
-## Approach
+### Approach
 
 For a 2x2 matrix $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
 
@@ -639,7 +639,7 @@ For a 2x2 matrix $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
 7. **Construct $e^{At}$:** Substitute $c_0(t)$ and $c_1(t)$ back into the assumed form:
    $e^{At} = c_0(t) I_2 + c_1(t) A$
 
-## Sample
+### Sample
 
 **$A = \begin{pmatrix} 0 & 6 \\ 1 & 1 \end{pmatrix}$ to find $e^{At}$**
 
@@ -671,7 +671,7 @@ For a 2x2 matrix $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
 
    $ = \frac{1}{5} \begin{pmatrix} 3e^{-2t} + 2e^{3t} & 6e^{3t} - 6e^{-2t} \\ e^{3t} - e^{-2t} & 2e^{-2t} + 3e^{3t} \end{pmatrix}$
 
-# Maximal solutions
+## Maximal solutions
 
 **1**. For the maximal solutions of $y' = y^5 + y$ satisfying $y(0) = 1$, the interval of definition is of the form:
 
@@ -707,11 +707,11 @@ For a 2x2 matrix $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
 
 ![alt text](20fc1153d988efeb24215853fff49ba.jpg)
 
-# Point-wise and Uniform Convergence 
+## Point-wise and Uniform Convergence 
 
 > [Video available on Bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=203596893&bvid=BV1hh41127Js&cid=282192338&p=1)
 
-## Differentiable
+### Differentiable
 
 **第一题**
 
@@ -766,9 +766,9 @@ $$\sum_{n=1}^{\infty} \frac{\sin(nx)}{n} = \frac{\pi - x}{2} \quad (0 < x < 2\pi
 
 ---
 
-## Function Sequence Converge Uniformly
+### Function Sequence Converge Uniformly
 
-### Definition
+#### Definition
 
 **I. Understanding Definitions:**
 
@@ -807,7 +807,7 @@ To determine whether a function sequence $(f_n)$ converges uniformly on an inter
    * **If $L = 0$:** Then the function sequence $(f_n)$ converges **uniformly** on the interval $I$ to the limit function $f(x)$.
    * **If $L > 0$ or the limit does not exist (and is not 0):** Then the function sequence $(f_n)$ is **not uniformly convergent** on the interval $I$ to the limit function $f(x)$.
 
-### 碎碎念版
+#### 碎碎念版
 
 **想象一下你有一排函数，就像一队运动员要跑向终点线（极限函数）。**
 
@@ -842,7 +842,7 @@ To determine whether a function sequence $(f_n)$ converges uniformly on an inter
 
 * **一致收敛  =  逐点收敛 +  “整齐划一” 的靠近极限函数。**
 
-### Sample Questions
+#### Sample Questions
 
 **8. 对于 $f_n(x)$ 的哪个选择，函数序列 $(f_n)$ 在区间 $(0, 1)$ 上一致收敛？**
 
@@ -909,9 +909,9 @@ $$\left| \frac{nx}{x+n} - x \right| = \left| \frac{-x^2}{x+n} \right| = \frac{x^
 
 最终答案是： **选项 (C) 和 (E) 一致收敛。**
 
-# Unique and Existence Theorem 
+## Unique and Existence Theorem 
 
-## Sample Questions
+### Sample Questions
 
 **Question 1:**
 
@@ -953,7 +953,7 @@ Which of the following ODEs has distinct solutions $y_1, y_2: I \to \mathbb{R}$ 
 - [x] $y' = \sqrt[3]{y}$
 - [ ] $y' = \frac{1}{y}$
 
-## Some easy ways to check uniqueness and existence of solutions
+### Some easy ways to check uniqueness and existence of solutions
 
 1. **快速排除线性选项:**  首先，快速扫描所有选项，找出**线性微分方程 (Linear ODE)** 的选项。线性ODE通常，特别是在题目没有特意指出奇异情况时，倾向于拥有**唯一解**。所以，如果选项中有明显的线性ODE，通常可以**优先排除**，除非题目明确提示不寻常的情况。
 
@@ -981,7 +981,7 @@ Which of the following ODEs has distinct solutions $y_1, y_2: I \to \mathbb{R}$ 
 
 5. **最终判断并标注:**  在快速排除线性选项后，根据非线性项的类型和与教案例题的相似度，选择最有可能出现非唯一解的选项。 如果你仍然不确定，**绿色高亮**的选项往往是一个强烈的提示，表明该选项是“预期”的正确答案。
 
-## Theorems
+### Theorems
 
 **1. Lipschitz Condition**
 
@@ -1030,7 +1030,7 @@ The Picard-Lindelöf Theorem stated in the notes is:
 *   **In simpler terms:** Under the same "niceness" conditions on $f$ (continuity and locally Lipschitz w.r.t $\mathbf{y}$), for *any* starting point $(t_0, \mathbf{y}_0)$ in the domain $D$, there is **at least one** solution to the initial value problem. The interval of existence $I$ around $t_0$ is guaranteed, though it might not be the entire real line.
 
 ---
-又是稀奇古怪的碎碎念：
+#### 又是稀奇古怪的碎碎念：
 想象一下，你正在画一条曲线，这条曲线的斜率由一个规则（微分方程）控制。
 
 **Lipschitz 条件:** 就像交通规则一样，保证你画的曲线“平滑”。它说的是，规则不能太“野”，不能对很小的位置变化，产生“跳跃式”的大幅度的斜率变化。**局部Lipschitz条件**就像说，在任何一小块地方，这个规则都是“平滑”的，即使放到全局，规则可能会变得比较复杂。
@@ -1063,7 +1063,7 @@ The Picard-Lindelöf Theorem stated in the notes is:
 
 ---
 
-## How to solve the problem
+### How to solve the problem
 
 Let's break down the explanation for **Question 1:** Which of the following ODE's has distinct solutions $y_1, y_2: \mathbb{R} \to \mathbb{R}$ satisfying $y_1(0) = y_2(0) = 1$?", where the correct answer was identified as  $y' = y^{2/3}$.
 
@@ -1093,9 +1093,9 @@ The explanation states for "The other 4 ODE's either satisfy the assumptions of 
 
 *   **$y' = \sqrt{y^2+1}/y$ (Non-uniqueness away from given condition point):**  For $y' = \sqrt{y^2+1}/y$, the explanation mentions non-uniqueness might "only be at points that a solution with the given initial condition cannot reach". The term $y$ in the denominator $\sqrt{y^2+1}/y$ hints at issues as $y \to 0$. For initial condition $y(0) = 1 \ne 0$, solutions start at $y \ne 0$ and stay away, making the local issue around $y=0$ not directly relevant to question.
 
-# Orthogonal Trajectories 
+## Orthogonal Trajectories 
 
-**Methodology for Orthogonal Trajectories Problems:**
+### **Methodology for Orthogonal Trajectories Problems:**
 
 To find the orthogonal trajectories of a given family of curves, follow these steps:
 
@@ -1116,7 +1116,7 @@ To find the orthogonal trajectories of a given family of curves, follow these st
 4.  **Present the Result:**
     *   Express the solution as a family of curves, ideally in implicit form $G(x, y) = C$ or explicit form $y = H(x, C)$ where C is a parameter.
 
-**Example**
+### **Example**
 
 **Example 1: Orthogonal Trajectories of Circles Through (1, 0) and (-1, 0)**
 
@@ -1151,17 +1151,9 @@ To find the orthogonal trajectories of a given family of curves, follow these st
     *   Solve $dx + y dy = 0$, which is exact and separable.
     *   Integrate directly to get $x + \frac{1}{2}y^2 = C \implies 2x + y^2 = C \implies 2x + y^2 = C$.
 
-**(b) Simplified Solution & Key Steps Illustrated:**
+## Define a contraction
 
-*   Example 9 is straightforward and applies the standard method directly.
-
-*   From explicit family form $y = Ce^{-x}$, find ODE $y' = -y$
-
-*   Replace $y'$ with $-1/y'$ to get orthogonal trajectory ODE, solve using direct integration for separable/exact ODE.
-
-# Define a contraction
-
-**Definition of a Contraction Mapping:**
+### **Definition of a Contraction Mapping:**
 
 To determine if a function  `T(x)` is a contraction on a given interval (e.g., [1, 2]), you need to verify **two key conditions**:
 
@@ -1175,7 +1167,7 @@ To determine if a function  `T(x)` is a contraction on a given interval (e.g., [
     *   **Bound the Derivative's Absolute Value:** Find the maximum absolute value of the derivative $|T'(x)|$ on the interval $[a, b]$. Let's call this maximum value *C*. For quadratic function check the endpoints and vertex for maximum absolute derivative.
     *   **Contraction Constant Check:** If the maximum absolute value C is strictly less than 1 ($C < 1$), then the function is a contraction mapping on the interval [a, b], with *C* as the contraction constant.  If $C \ge 1$ or you cannot guarantee $C < 1$ uniformly on the interval, the function is **not** a contraction on the entire interval (even though it *might* still reduce distance locally, but not uniformly with a constant less than 1).
 
-**Example**
+### **Example**
 
 Let's apply this method to option **(D) $x \mapsto T(x) = (x^2 + 5)/6$ for interval [1, 2]**, which is the correct answer according to the provided text.
 
