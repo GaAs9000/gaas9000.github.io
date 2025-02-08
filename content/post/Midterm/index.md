@@ -4,7 +4,6 @@ summary: This is the review note for Math285 Midterm (Spring 2025) by Jiashen Re
 date: 2025-02-02
 author: 
   - admin
-type: docs
 math: true
 tags:
   - Math285
