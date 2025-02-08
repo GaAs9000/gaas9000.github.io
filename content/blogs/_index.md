@@ -20,4 +20,14 @@ sections:
     design:
       view: article-grid
       columns: 2
+  - block: collection
+    id: math285
+    content:
+      title: Math285
+      filters:
+        folders:
+          - Math285
+    design:
+      view: article-grid
+      columns: 2
 ---
