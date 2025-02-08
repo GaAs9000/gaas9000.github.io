@@ -7,6 +7,10 @@ type: docs
 math: true
 tags:
   - Math285
+reading_time: true
+profile: true
+pager: true
+show_related: true
 ---
 
 
