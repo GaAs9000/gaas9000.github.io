@@ -1,14 +1,13 @@
 ---
-title: ✅ Manage your projects
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
-date: 2023-10-23
+title: ✅ Math285 Final Review
+summary: This is the review note for Math285 Final (Spring 2025) by Jiashen Ren.
+date: 2025-05-01
 authors:
   - admin
 tags:
-  - Hugo Blox
-  - Markdown
+  - Math285
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Math285 Class'
 ---
 
 Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
