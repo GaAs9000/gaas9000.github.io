@@ -305,7 +305,7 @@ So, for $(-\infty, 0)$, the general solution is $y(x) = c_1\,y_1^-(x) + c_2\,y_2
 
 2. **General Solution on $\mathbb{R}$:**  
 • **Given Information:** The problem explicitly states that many students incorrectly claim that the solution on $\mathbb{R}$ is a piecewise function:
-```md
+
 $$
 x \mapsto
 \begin{cases}
@@ -314,7 +314,7 @@ y_1(x), & x > 0,\\
 y_1^{-}(x), & x < 0
 \end{cases}
 $$
-```
+
 and points out that this solution is **incorrect**.  
 • **Analysis of the Error:** The key explanation in the problem is: “Since $y_1(x) \approx x^{3/2}$ for $x \downarrow 0$, the (unique) continuous extension of $y_1(x)$ to $[0,\infty)$ (obtained by setting $y_1(0) = 0$) is **not** twice differentiable at $x = 0$ (only once differentiable).”  
   - **Continuity:** For the solution to be meaningful on $\mathbb{R}$, we need to ensure that the solution is continuous at $x = 0$. If $\lim_{x\to 0^+} y_1(x) = 0$ and $\lim_{x\to 0^-} y_1^-(x) = 0$, and we define $y(0) = 0$, then this piecewise function is continuous at $x = 0$. The problem mentions $y_1(0) = 0$ to ensure continuity.  
